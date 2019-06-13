@@ -43,8 +43,8 @@
                                         <rect key="frame" x="32.5" y="100" width="270" height="407"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HuZ-2o-pWO">
-                                                <rect key="frame" x="35" y="0.0" width="200" height="87"/>
-                                                <color key="backgroundColor" red="0.85010837069283751" green="0.98084574937820435" blue="0.90389440104410701" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <rect key="frame" x="35" y="0.0" width="200" height="65.5"/>
+                                                <color key="backgroundColor" red="0.68775914968558194" green="0.98084574937820435" blue="0.71221164098945977" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="200" id="7Gm-ru-Ryt"/>
                                                 </constraints>
@@ -52,8 +52,8 @@
                                                 <state key="normal" title="Botón 1"/>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PmY-ww-Prz">
-                                                <rect key="frame" x="35" y="107" width="200" height="86.5"/>
-                                                <color key="backgroundColor" red="0.85010837069283751" green="0.98084574937820435" blue="0.90389440104410701" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <rect key="frame" x="35" y="85.5" width="200" height="65.5"/>
+                                                <color key="backgroundColor" red="0.68797123432159424" green="0.98314052820205688" blue="0.71366119384765625" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="200" id="YsZ-Jo-Av1"/>
                                                 </constraints>
@@ -61,8 +61,8 @@
                                                 <state key="normal" title="Botón 2"/>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ptD-eJ-U2D">
-                                                <rect key="frame" x="35" y="213.5" width="200" height="87"/>
-                                                <color key="backgroundColor" red="0.8501083707" green="0.98084574940000002" blue="0.90389440099999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <rect key="frame" x="35" y="171" width="200" height="65"/>
+                                                <color key="backgroundColor" red="0.68797123432159424" green="0.98314052820205688" blue="0.71366119384765625" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="200" id="wng-Gm-5aH"/>
                                                 </constraints>
@@ -70,13 +70,22 @@
                                                 <state key="normal" title="Botón 3"/>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h3v-rd-sxP">
-                                                <rect key="frame" x="35" y="320.5" width="200" height="86.5"/>
-                                                <color key="backgroundColor" red="0.8501083707" green="0.98084574940000002" blue="0.90389440099999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <rect key="frame" x="35" y="256" width="200" height="65.5"/>
+                                                <color key="backgroundColor" red="0.68797123432159424" green="0.98314052820205688" blue="0.71366119384765625" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="200" id="Y6U-4C-5hE"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                                 <state key="normal" title="Botón 4"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dsw-uu-dgC">
+                                                <rect key="frame" x="35" y="341.5" width="200" height="65.5"/>
+                                                <color key="backgroundColor" red="0.68797123432159424" green="0.98314052820205688" blue="0.71366119384765625" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="200" id="ZQX-BI-Smi"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                <state key="normal" title="Botón 5"/>
                                             </button>
                                         </subviews>
                                         <constraints>
@@ -113,6 +122,13 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="boton1" destination="HuZ-2o-pWO" id="Ygs-vi-SxX"/>
+                        <outlet property="boton2" destination="PmY-ww-Prz" id="eVd-Wy-vHY"/>
+                        <outlet property="boton3" destination="ptD-eJ-U2D" id="vNi-xn-e08"/>
+                        <outlet property="boton4" destination="h3v-rd-sxP" id="Tb2-tl-SaI"/>
+                        <outlet property="boton5" destination="dsw-uu-dgC" id="Dnz-Ca-rYC"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
